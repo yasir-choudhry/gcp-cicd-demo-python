@@ -10,6 +10,10 @@ def hello_world():
     name = os.environ.get("NAME", "World")
     return "Hello {}!".format(name)
 
+obvious_syntax_error = 
+
+another + error_ = _error
+
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
