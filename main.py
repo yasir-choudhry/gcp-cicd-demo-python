@@ -10,9 +10,16 @@ def hello_world():
     name = os.environ.get("NAME", "World")
     return "Hello {}!".format(name)
 
-obvious_syntax_error = 
-
-another + error_ = _error
+test_num = 5
+test_num_2 = 0
+if test_num == 2:
+    test_num_2 = 1
+elif test_num == 3:
+    test_num_2 = 2
+elif test_num == 3:
+    test_num_2 = 3
+elif test_num == 4:
+    test_num_2 = 4
 
 
 if __name__ == "__main__":
